@@ -2,8 +2,8 @@ import React from "react";
 
 import randomWords from "random-words";
 
-const NUMB_OF_WORDS = 200;
-const SECONDS = 10;
+const NUMB_OF_WORDS = 300;
+const SECONDS = 60;
 
 function App() {
   const [words, setWords] = React.useState([]);
